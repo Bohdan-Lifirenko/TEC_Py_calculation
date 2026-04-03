@@ -352,9 +352,9 @@ class KotCalculatorApp:
             wb = openpyxl.load_workbook(self.file_path.get(), data_only=True)
 
             # Назви листів (змінюйте тут, якщо у вас інші назви)
-            sht_kot1 = wb["Kot1"]
-            sht_tur1 = wb["Tur1"]
-            sht_tur2 = wb["Tur2"]
+            sht_kot1 = wb["Котел I черга"]
+            sht_tur1 = wb["Турбіна I черга"]
+            sht_tur2 = wb["Турбіна II черга"]
 
             self.log("Листа завантажено успішно")
 
